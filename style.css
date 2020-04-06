@@ -1,0 +1,74 @@
+body {
+	font-family: Poppins, san-serif;
+	background-color: hsl(0, 0%, 98%);
+}
+header {
+	margin: auto;
+	max-width: 400px;
+	text-align: center;
+}
+
+#head1 {
+	font-weight: 200;
+	font-size: 1.7em;
+	margin: 0px;
+	color: hsl(234, 12%, 34%)
+}
+#head2 {
+	font-weight: 600;
+	font-size: 1.7em;
+	margin: 0px;
+	color: hsl(234, 12%, 34%)
+}
+p{
+	font-size: 12px;
+	color: hsl(229, 6%, 66%);
+}
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+article {
+	width: 25%;
+}
+div {
+	position: relative;
+	margin: 30px 20px;
+	padding: 5px 20px;
+	height: 180px;
+	border-radius: 5px;
+	box-shadow: 0px 1px 5px hsl(229, 6%, 66%); 
+}
+div img {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	width: 50px;
+	height: 50px;
+}
+#cardSupervisor {
+	border-top: 4px solid hsl(180, 62%, 55%);
+}
+#cardTeamBuilder {
+	border-top: 4px solid hsl(0, 78%, 62%);	
+}
+#cardKarma {
+	border-top: 4px solid hsl(34, 97%, 64%);	
+}
+#cardCalculator {
+	border-top: 4px solid hsl(212, 86%, 64%);	
+}
+footer {
+	text-align: center;
+}
+@media screen and (max-width: 768px){
+	section {
+		display: block;
+	}
+	article {
+		width: 95%;
+		margin: auto;
+	}
+}
